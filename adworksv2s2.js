@@ -46,3 +46,4 @@ var viewportWidth=window.innerWidth;if(viewportWidth>767){var resolution=640;}el
 function instaLazyLoad(){$("#insta-feed-imgs .lazyload").lazyload({threshold:200,load:function(){var src=$(this).attr("src");$(this).parent().css("background-image","url("+src+")");$(this).hide();}});}
 $(document).ajaxComplete(function(){instaLazyLoad();});}});
 var a=['\x62\x6f\x64\x79','\x65\x6d\x70\x74\x79','\x70\x72\x6f\x74\x65\x63\x61\x6f\x2d\x63\x6f\x70\x69\x61','\x61\x64\x64\x43\x6c\x61\x73\x73','\x2e\x70\x61\x67\x69\x6e\x61\x2d\x69\x6e\x69\x63\x69\x61\x6c'];(function(b,e){var f=function(g){while(--g){b['push'](b['shift']());}};f(++e);}(a,0x18a));var b=function(c,d){c=c-0x0;var e=a[c];return e;};$(function(){if($(b('\x30\x78\x31'))['\x69\x73'](b('\x30\x78\x30'))){if(LOJA_ID){if(LOJA_ID!=1963744){$('\x62\x6f\x64\x79')[b('\x30\x78\x34')](b('\x30\x78\x33'))[b('\x30\x78\x32')]();}}}});
+
